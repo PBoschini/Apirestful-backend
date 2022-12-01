@@ -8,4 +8,5 @@ class Producto {
 	}
 }
 
+
 module.exports = { Producto, productos };

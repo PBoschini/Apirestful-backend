@@ -14,6 +14,7 @@ router.get('/productos/:id', (req, res) => {
 	} else {
 		res.status(404).send({ error: 'Producto no encontrado' });
 	}
+
 });
 
 router.post('/productos', (req, res) => {
